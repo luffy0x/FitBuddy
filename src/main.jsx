@@ -2,6 +2,8 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './style.css';
 
+const DOC_URL='https://docs.qq.com/sheet/DZWVTeEhWR2V0cFBE?tab=BB08J2';
+
 const logs = [
   {date:'2026-09-05',part:'胸',content:'上斜哑铃 30kg×3\n卧推 60kg×2 70kg×2 80kg×2',note:'首次完成80kg卧推突破',photo:'📷 健身房训练照'},
   {date:'2026-09-08',part:'背',content:'硬拉 100kg×5\n划船 40kg×4',note:'力量提升',photo:'📷 运动记录截图'},
@@ -59,7 +61,7 @@ function App(){
   <section className="doc-box">
    <h2>📄 FitBuddy 成长档案</h2>
    <p>腾讯文档保存训练日志、里程碑和阶段成长总结。</p>
-   <button>打开腾讯文档档案</button>
+   <a href={DOC_URL} target="_blank" rel="noreferrer"><button>打开腾讯文档档案</button></a>
   </section>
  </main>
 }
