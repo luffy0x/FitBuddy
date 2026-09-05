@@ -1,0 +1,1 @@
+body{font-family:Inter,Arial;background:#f6f7fb;margin:0}.app{max-width:900px;margin:40px auto;padding:20px}.cards{display:flex;gap:16px}.cards div,.log,.milestone{background:white;border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 4px 16px #ddd}.cards div{flex:1}pre{white-space:pre-wrap}button{padding:12px 18px;border:0;border-radius:12px;background:#111;color:white}
